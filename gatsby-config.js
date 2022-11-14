@@ -35,7 +35,7 @@ module.exports = {
         repositoryName: `${process.env.PRISMIC_REPOSITORY_NAME}`,
         accessToken: `${process.env.PRISMIC_ACCESS_TOKEN}`,
         schemas: {
-          post: require("./src/schemas/comics.json"),
+          comics: require("./custom_type/comics.json"),
         },
       },
     },

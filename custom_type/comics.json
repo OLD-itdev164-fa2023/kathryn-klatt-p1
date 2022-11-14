@@ -30,6 +30,13 @@
         "label" : "Comic Description",
         "placeholder" : "description of comic"
       }
+    },
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "label" : "id",
+        "placeholder" : "id"
+      }
     }
   }
 }
