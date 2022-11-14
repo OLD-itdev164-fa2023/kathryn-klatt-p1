@@ -1,0 +1,35 @@
+{
+  "Main" : {
+    "comic_title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading2",
+        "label" : "Comic Title",
+        "placeholder" : "comic title"
+      }
+    },
+    "publish_date" : {
+      "type" : "Date",
+      "config" : {
+        "label" : "Publish Date"
+      }
+    },
+    "comic_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ ],
+        "label" : "Comic Image"
+      }
+    },
+    "comic_description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "allowTargetBlank" : true,
+        "label" : "Comic Description",
+        "placeholder" : "description of comic"
+      }
+    }
+  }
+}
